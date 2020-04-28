@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha383-Vkoo8x3CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .box {
+            height: 100px;
+            background: royalblue;
+            border: 1px white solid;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row flex-row-reverse">
+            <div class="col-3">
+                <div class="box">1</div>
+            </div>
+            <div class="col-3">
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-3">
+                <div class="box">1</div>
+            </div>
+            <div class="col-3">
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-3">
+                <div class="box">1</div>
+            </div>
+            <div class="col-3">
+                <div class="box">2</div>
+            </div>
+        </div>
+        <div class="row flex-column align-items-center">
+            <div class="col-6 align-self-start">
+                <div class="box"></div>
+            </div>
+            <div class="col-6">
+                <div class="box"></div>
+            </div>
+            <div class="col-6 align-self-end">
+                <div class="box"></div>
+            </div>
+            <div class="col-6">
+                <div class="box"></div>
+            </div>
+            <div class="col-6 align-self-start">
+                <div class="box"></div>
+            </div>
+        </div>
+</body>
+
+</html>
